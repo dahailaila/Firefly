@@ -39,7 +39,7 @@ export const sponsorConfig: SponsorConfig = {
 			description: "使用 微信 扫码赞助",
 			enabled: true,
 		},
-		{
+	/*	{
 			name: "ko-fi",
 			icon: "simple-icons:kofi",
 			qrCode: "",
@@ -54,18 +54,18 @@ export const sponsorConfig: SponsorConfig = {
 			link: "https://ifdian.net/a/cuteleaf",
 			description: "通过 爱发电 进行赞助",
 			enabled: true,
-		},
+		},*/
 	],
 
 	// 赞助者列表（可选）
 	sponsors: [
 		// 示例：已实名赞助者
 		{
-			name: "夏叶",
-			avatar:
-				"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
+			name: "匿名用户",
+		//	avatar:
+		//		"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
 			amount: "¥50",
-			date: "2025-10-01",
+			date: "2026-06-13",
 		},
 
 		// 示例：匿名赞助者
@@ -73,7 +73,7 @@ export const sponsorConfig: SponsorConfig = {
 			name: "匿名用户",
 			// avatar: "",
 			amount: "¥20",
-			date: "2025-10-01",
+			date: "2026-06-14",
 		},
 	],
 };

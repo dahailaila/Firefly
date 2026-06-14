@@ -17,7 +17,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	];
 
 	// 文章及其子菜单
-	links.push({
+	/*links.push({
 		name: "文章",
 		url: "#",
 		icon: "material-symbols:article",
@@ -31,16 +31,31 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			// 标签
 			LinkPresets.Tags,
 		],
-	});
+	});*/
 
-	// 友链
-	links.push(LinkPresets.Friends);
+
+ 	// 分类
+	links.push(LinkPresets.Categories);
+
+   	// 归档
+	//links.push(LinkPresets.Archive);
+
+	// 标签
+	//links.push(LinkPresets.Tags);
 
 	// 留言板
 	links.push(LinkPresets.Guestbook);
+	// 友链
+	links.push(LinkPresets.Friends);
+	
+	// 关于页面
+	links.push(LinkPresets.About);
+
+	// 赞助
+	links.push(LinkPresets.Sponsor);
 
 	// 我的及其子菜单
-	links.push({
+	/*links.push({
 		name: "我的",
 		url: "#",
 		icon: "material-symbols:person",
@@ -51,24 +66,22 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			// 番组计划
 			LinkPresets.Bangumi,
 		],
-	});
+	});*/
 
 	// 关于及其子菜单
-	links.push({
+	/*links.push({
 		name: "关于",
 		url: "#",
 		icon: "material-symbols:info",
 		children: [
-			// 赞助
-			LinkPresets.Sponsor,
+			
 
-			// 关于页面
-			LinkPresets.About,
+			
 		],
 	});
 
 	// 自定义导航栏链接
-	links.push({
+	/*links.push({
 		name: "链接",
 		url: "#",
 		icon: "material-symbols:link",
@@ -99,7 +112,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "material-symbols:docs",
 			},
 		],
-	});
+	});*/
 
 	// 文档链接
 	// links.push({

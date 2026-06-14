@@ -1,0 +1,51 @@
+name: 友链自助申请
+description: 自助申请本站友链，请务必先在你的站点添加本站友链
+title: "[友链申请] "
+labels: ["友链申请"]
+assignees: []
+
+# 表单字段（和脚本解析规则对齐）
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 申请须知
+        1. 请**先在你的友链页面添加本站友链**，否则申请会校验失败；
+        2. 本站信息：名称【花海博客】、链接【https://hhwzk.cc.cd】；
+        3. 提交后系统自动校验，结果会在本Issue评论通知。
+
+  - type: input
+    id: site_name
+    attributes:
+      label: 网站名称
+      placeholder: 请填写你的博客/站点名称
+    validations:
+      required: true
+
+  - type: input
+    id: site_url
+    attributes:
+      label: 网站链接
+      placeholder: https://xxx.com
+    validations:
+      required: true
+
+  - type: input
+    id: friend_page_url
+    attributes:
+      label: 你的友链页面URL
+      placeholder: https://xxx.com/friends
+    validations:
+      required: true
+
+  - type: textarea
+    id: site_desc
+    attributes:
+      label: 网站描述
+      placeholder: 简单介绍你的站点（选填）
+
+  - type: input
+    id: site_avatar
+    attributes:
+      label: 网站头像URL
+      placeholder: 头像直链（选填）
