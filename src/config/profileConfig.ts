@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "花海",
 
 	// 个人签名
-	bio: "花海的小窝.",
+	bio: "顺为凡，逆则仙，只在一念间！",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -24,7 +24,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "qq",
 			icon: "fa7-brands:qq",
-			url: "https://hhwzk.cc.cd",
+			url: "https://qun.qq.com/universal-share/share?ac=1&authKey=3rTrgLKyN1q7%2BIJbmRBrsJc%2BnKTGfliRw9YX6WxKpi9kQZ5ER8vaq%2FypNWkJ1%2B1D&busi_data=eyJncm91cENvZGUiOiI3MTgwNzM4NzMiLCJ0b2tlbiI6IklULzZPbXN5bTl5N29RSEcxNkpwTENEUk93bU82TzdBTkltcDJSa3Q3UVVJb3hhK0dvK1djVzhZTmdtZU5RNkUiLCJ1aW4iOiIxNTkyNzU3NzQxIn0%3D&data=kZTKVbc-rum5FDjXI1csiq-3IxuZruROwm9hg7vRoHupUQ6Hi_CWc2NoA-NU4mbsM6DcyNN7X--ermYe5Dsxng&svctype=4&tempid=h5_group_info",
 			showName: false,
 		},
 		{
@@ -36,7 +36,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
-			url: "https://hhwzk.cc.cd",
+			url: "http://hhwzk.cc.cd/about/",
 			showName: false,
 		},
 		

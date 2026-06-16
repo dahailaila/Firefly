@@ -38,7 +38,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	links.push(LinkPresets.Categories);
 
    	// 归档
-	//links.push(LinkPresets.Archive);
+	links.push(LinkPresets.Archive);
 
 	// 标签
 	//links.push(LinkPresets.Tags);
