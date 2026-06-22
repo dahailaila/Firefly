@@ -11,7 +11,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	showInNavbar: true,
 
 	// 使用方式："meting" 使用 Meting API，"local" 使用本地音乐列表
-	mode: "meting",
+	mode: "local",
 
 	// 默认音量 (0-1)
 	volume: 0.7,
@@ -20,7 +20,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	playMode: "list",
 
 	// 是否显启用歌词
-	showLyrics: true,
+	showLyrics: false,
 
 	// Meting API 配置
 	meting: {
@@ -50,12 +50,42 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
+				name: "我好想你",
+				artist: "苏打绿",
+				url: "/assets/music/我好想你- 苏打绿.mp3",
 				cover: "/assets/music/cover/109951169585655912.webp",
 				lrc: "",
 			},
+			
+			{
+				name: "说散就散",
+				artist: "袁娅维",
+				url: "/assets/music/说散就散-袁娅维.m4a",
+				cover: "/assets/music/cover/109951169585655912.webp",
+				lrc: "",
+			},
+			{
+				name: "体面",
+				artist: "于文文",
+				url: "/assets/music/体面-于文文.m4a",
+				cover: "/assets/music/cover/109951169585655912.webp",
+				lrc: "",
+			},
+			{
+				name: "演员",
+				artist: "薛之谦",
+				url: "/assets/music/演员-薛之谦.m4a",
+				cover: "/assets/music/cover/109951169585655912.webp",
+				lrc: "",
+			},
+			{
+				name: "离人愁",
+				artist: "曲肖冰",
+				url: "/assets/music/离人愁-曲肖冰.mp3",
+				cover: "/assets/music/cover/109951169585655912.webp",
+				lrc: "",
+			},
+			
 		],
 	},
 };

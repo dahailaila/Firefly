@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "花海",
 
 	// 个人签名
-	bio: "顺为凡，逆则仙，只在一念间！",
+	bio: "及时行乐，纵享生活！",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
