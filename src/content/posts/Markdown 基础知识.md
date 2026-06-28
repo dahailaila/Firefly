@@ -1,12 +1,12 @@
 ---
-title: Markdown 学习笔记
-published: 2026-06-17
+title: Markdown 基础知识
+published: 2026-06-16
 pinned: true
 description: 一个简明的 Markdown 博客示例。
 tags: [Markdown, 文档教程]
 category: 文档教程
 licenseName: "未授权"
-author: emn178
+author: 花海
 sourceLink: "https://github.com/emn178/markdown"
 draft: false
 
