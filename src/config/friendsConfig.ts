@@ -32,16 +32,16 @@ export const friendsConfig: FriendLink[] = [
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
-	/*{
-		title: "Firefly Docs",
-		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
-		desc: "Firefly主题模板文档",
-		siteurl: "https://docs-firefly.cuteleaf.cn",
+	{
+		title: "fqzlr",
+		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=20447289&s=640",
+		desc: "躬身入局，心为主理，行有尺度，自持本心.",
+		siteurl: "https://fqzlr.com/",
 		tags: ["Docs"],
 		weight: 9,
 		enabled: true,
 	},
-	{
+	/*{
 		title: "Astro",
 		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
 		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
