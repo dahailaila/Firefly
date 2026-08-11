@@ -28,7 +28,7 @@ export const friendsConfig: FriendLink[] = [
 			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
 		desc: "个人技术博客",
 		siteurl: "https://hhwzk.cc.cd",
-		tags: ["Blog"],
+		tags: ["Docs"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
