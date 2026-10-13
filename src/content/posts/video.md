@@ -4,7 +4,7 @@ published: 2026-06-13
 description: 这篇文章演示如何在博客文章中嵌入视频。
 tags: [示例, 视频, Firefly]
 category: 文档教程
-draft: true
+draft: false
 ---
 
 只需从视频平台复制嵌入代码，然后将其粘贴到 markdown 文件中。
@@ -12,7 +12,7 @@ draft: true
 ```yaml
 ---
 title: 在文章中嵌入视频
-published: 2023-10-19
+published: 2026-10-13
 // ...
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Markdown 基础知识
 published: 2026-06-16
-pinned: true
+pinned: false
 description: 一个简明的 Markdown 博客示例。
 tags: [Markdown, 文档教程]
 category: 文档教程
